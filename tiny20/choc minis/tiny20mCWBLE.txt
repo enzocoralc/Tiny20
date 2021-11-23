@@ -1,0 +1,165 @@
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 5
+      columns:
+        pinky:
+          spread: 18
+          rows:
+            bottom:
+              column_net: P1
+            home:
+              column_net: P2
+              rotate: 180
+        ring:
+          spread: 18
+          rotate: -5
+          origin: [-12, -19]
+          stagger: 16
+          rows:
+            bottom:
+              column_net: P3
+            home:
+              column_net: P4
+              rotate: 180
+        middle:
+          spread: 18
+          stagger: 5
+          rows:
+            bottom:
+              column_net: P5
+            home:
+              column_net: P6
+              rotate: 180
+        index:
+          spread: 18
+          stagger: -6
+          rows:
+            bottom:
+              column_net: P7
+            home:
+              column_net: P8
+              rotate: 180
+      rows:
+        bottom:
+          padding: 10
+    thumb:
+      anchor:
+        ref: matrix_index_bottom
+        shift: [8, -25]
+        rotate: -90
+      columns:
+        near:
+          rotate: 90
+          origin: [0,0]
+          rows:
+            home:
+              rotate: -90
+              column_net: P10
+        home:
+          spread: 10
+          rotate: 90
+          origin: [0,0]
+          rows:
+            home:
+              column_net: P9
+  key:
+    footprints:
+      choc:
+        type: chocmini
+        nets:
+          from: =column_net
+          to: GND
+        params:
+            keycaps: true
+            reverse: true
+            hotswap: false
+outlines:
+  exports:
+    plate:
+      - type: keys
+        side: left
+        size: 18
+        corner: 3
+      - type: keys
+        side: left
+        size: 14
+        bound: false
+        operation: subtract
+    pcb_perimeter_raw:
+      - type: keys
+        side: left
+        size: 18
+    polygon:
+      - type: polygon # all borders
+        operation: stack
+        points:
+          - ref: matrix_pinky_bottom
+            shift: [9,-9]
+          - ref: matrix_pinky_home
+            shift: [9,-9]
+          - ref: matrix_ring_home
+            shift: [9,-9]
+          - ref: matrix_middle_home
+            shift: [9,-9]
+          - ref: matrix_middle_home
+            shift: [-9,-9]
+          - ref: matrix_index_home
+            shift: [-1.45u,-9]
+          - ref: thumb_home_home
+            shift: [-8,-9]
+          - ref: thumb_near_home
+            shift: [9,9]
+    pcb_perimeter:
+      - type: outline # keys
+        name: pcb_perimeter_raw
+      - type: outline
+        name: polygon
+        operation: add
+pcbs:
+  tiny20mCBLE:
+    outlines:
+      main:
+        outline: pcb_perimeter
+    footprints:
+      xiao:
+        type: xiao
+        anchor:
+          ref: matrix_index_bottom
+          shift: [0.5u, -0.2u]
+          rotate: 0
+        params:
+          orientation: down
+      battery:
+        type: jstph
+        anchor:
+          ref: 
+            - matrix_index_bottom
+          shift: [1.1u, -0.65u]
+          rotate: 180
+        nets:
+          pos: RAW
+          neg: GND
+      reset:
+        type: button
+        anchor:
+          ref:
+            - matrix_index_bottom
+          shift: [13, -0.5u]
+          rotate: 90
+        nets:
+          from: RST
+          to: GND
+      resetbottom:
+        type: button
+        anchor:
+          ref:
+            - matrix_index_bottom
+          shift: [13, -0.5u]
+          rotate: 90
+        nets:
+          from: RST
+          to: GND
+        params:
+          side: B
