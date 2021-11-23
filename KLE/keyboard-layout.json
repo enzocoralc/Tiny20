@@ -363,5 +363,78 @@
       "h": 0.5
     },
     "lt3"
+  ],
+  [
+    {
+      "a": 5
+    },
+    "screen\n\n\n\n\n\nshot",
+    {
+      "a": 7
+    },
+    "MPlay",
+    "VUp",
+    "DF(0)",
+    {
+      "x": 0.25,
+      "a": 5,
+      "w": 1.5,
+      "h": 2
+    },
+    "\n4 (mouse)\n\n\n\n\nLayer",
+    {
+      "x": 0.25,
+      "a": 7
+    },
+    "<i class='kb kb-Arrows-Left'></i>",
+    "<i class='kb kb-Arrows-Down'></i>",
+    "<i class='kb kb-Arrows-Up'></i>",
+    "<i class='kb kb-Arrows-Right'></i>"
+  ],
+  [
+    "<i class='kb kb-Multimedia-Rewind'></i>",
+    "Mute",
+    "VDn",
+    "<i class='kb kb-Multimedia-FastForwar'></i>",
+    {
+      "x": 2
+    },
+    "ms1",
+    "wDn",
+    "wUp",
+    "ms2"
+  ],
+  [
+    {
+      "x": 2,
+      "t": "#781a1a",
+      "a": 5
+    },
+    "osm-win\nlctl",
+    {
+      "t": "#000000"
+    },
+    "spc\nlt1",
+    {
+      "x": 2
+    },
+    "enter\nlt2",
+    {
+      "t": "#781a1a"
+    },
+    "osm-ralt\nlsft"
+  ],
+  [
+    {
+      "r": -45,
+      "rx": 5.75,
+      "ry": 0.75,
+      "y": 0.75,
+      "x": 0.25,
+      "t": "#000000",
+      "a": 7,
+      "h": 0.5
+    },
+    "df4"
   ]
 ]
