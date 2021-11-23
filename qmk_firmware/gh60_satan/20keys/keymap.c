@@ -228,8 +228,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
         [4] = LAYOUT_60_ansi(____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,
                              ____, SC_ST, KC_MPLY, KC_VOLU, DF(0), ____, ____, ____, KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, ____, ____,
-                             ____, KC_MPRV, KC_MUTE, KC_VOLD, KC_MNXT, ____, ____, ____, KC_BTN1, KC_WH_D, KC_WH_U, KC_BTN2, ____,
-                             ____, ____, ____, MT_CTL_GUI, LT_S1, ____, ____, LT_E2, MT_SFT_ALT, ____, ____, ____,
+                             ____, KC_MPRV, KC_MUTE, KC_VOLD, KC_MNXT, ____, ____, ____, KC_BTN5, KC_WH_D, KC_WH_U, KC_BTN4, ____,
+                             ____, ____, ____, MT_CTL_GUI, KC_BTN3, ____, ____, KC_BTN1, KC_BTN2, ____, ____, ____,
                              ____, ____, ____, ____, ____, ____, ____, ____)
 
 };
