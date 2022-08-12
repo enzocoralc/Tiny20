@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "mcu")(type "KiCad")(uri "C:/Users/enzoc/Documents/GitHub/kleeb/mcu.pretty")(options "")(descr ""))
+)
