@@ -101,7 +101,7 @@
     (descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/product-catalog/tact/product-lines/tl3342-series-low-profile-smt-tact-switch")
     (tags "SPST Tactile Switch")
     (attr through_hole)
-    (fp_text reference "B1" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "B1" (at 0 0 90) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp f8ffb27a-b298-4db6-a4a8-e9c7149389ea)
     )
@@ -139,7 +139,7 @@
     (tstamp 120a7b0f-ddfd-4447-85c1-35665465acdb)
     (at 222.030147 125.990773)
     (attr through_hole)
-    (fp_text reference "S3" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S3" (at 0.168488 3.414874) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 162b73ae-5424-48a8-aca8-e7095e140142)
     )
@@ -188,7 +188,7 @@
     (tstamp 2f215f15-3d52-4c91-93e6-3ea03a95622f)
     (at 260.030146 146.990776 -90)
     (attr through_hole)
-    (fp_text reference "S9" (at 0 0 -270) (layer "F.SilkS") hide
+    (fp_text reference "S9" (at 3.414874 -0.168488) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 90e74fb2-adc8-4938-9ac0-a89840845dd2)
     )
@@ -237,7 +237,7 @@
     (tstamp 3cd1bda0-18db-417d-b581-a0c50623df68)
     (at 258.030146 126.990772)
     (attr through_hole)
-    (fp_text reference "S7" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S7" (at 0.168488 3.414874) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp f932b5fd-d5e8-4128-86c6-37ef1459bdb2)
     )
@@ -286,7 +286,7 @@
     (tstamp 3dcc657b-55a1-48e0-9667-e01e7b6b08b5)
     (at 222.030147 108.990773)
     (attr through_hole)
-    (fp_text reference "S4" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S4" (at 0.168488 3.414874) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 374908b8-9c30-4628-ab0c-19ad9a96c3d3)
     )
@@ -335,7 +335,7 @@
     (tstamp 54365317-1355-4216-bb75-829375abc4ec)
     (at 240.030147 103.990775)
     (attr through_hole)
-    (fp_text reference "S6" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S6" (at 0.168488 3.414874) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp acff5dce-ad66-4c3c-a3e8-c13a7c1a4a7e)
     )
@@ -384,7 +384,7 @@
     (tstamp 67c45272-9463-47df-8329-7647b860a7ab)
     (at 275.76 112.8)
     (attr smd exclude_from_pos_files)
-    (fp_text reference "U1" (at -19.3989 -11.28268) (layer "F.SilkS") hide
+    (fp_text reference "U1" (at 0.146 -3.592) (layer "F.SilkS")
         (effects (font (size 0.889 0.889) (thickness 0.1016)))
       (tstamp dd98f92f-f7a0-4b3a-bc45-9f088cf174b0)
     )
@@ -450,7 +450,7 @@
     (tstamp 7447a6e7-8205-46ba-afca-d0fa8f90c95a)
     (at 203.791512 142.525126 5)
     (attr through_hole)
-    (fp_text reference "S1" (at 0 0 5) (layer "F.SilkS") hide
+    (fp_text reference "S1" (at -0.129779 3.416564 5) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp f9bf00b0-e29b-454b-9cf9-420dd04f3447)
     )
@@ -499,7 +499,7 @@
     (tstamp 80094b70-85ab-4ff6-934b-60d5ee65023a)
     (at 258.030147 109.990774)
     (attr through_hole)
-    (fp_text reference "S8" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S8" (at 0.168488 3.414874) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp e2daf19c-2955-4531-a39c-3eb0eda1cb69)
     )
@@ -548,7 +548,7 @@
     (tstamp 8d9a3ecc-539f-41da-8099-d37cea9c28e7)
     (at 202.480697 104.595033 5)
     (attr through_hole)
-    (fp_text reference "TRRS" (at 0 14.2 95) (layer "Dwgs.User")
+    (fp_text reference "TRRS" (at -3.485631 5.090545 95) (layer "Dwgs.User")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c358d6d3-3fc1-4255-889b-dd8456b5bf5d)
     )
@@ -596,7 +596,7 @@
     (tstamp 9dab0cb7-2557-4419-963b-5ae736517f62)
     (at 202.309863 125.589814 5)
     (attr through_hole)
-    (fp_text reference "S2" (at 0 0 5) (layer "F.SilkS") hide
+    (fp_text reference "S2" (at -0.129779 3.416564 5) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 7a073831-4626-48ad-932c-cdd02130c71c)
     )
@@ -644,7 +644,7 @@
   (footprint "keyboard-footprints:Power_reversible" (layer "F.Cu")
     (tstamp c17f1f2f-0872-4337-b043-ba3be8511c87)
     (at 283.69 127.91 90)
-    (fp_text reference "SW01" (at 0 0.5 90) (layer "F.SilkS") hide
+    (fp_text reference "SW01" (at -0.08 1.27 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 329bbbe8-c869-49f9-b524-1fcd9cd723ac)
     )
@@ -835,7 +835,7 @@
     (tstamp d7269d2a-b8c0-422d-8f25-f79ea31bf75e)
     (at 277.030146 146.990773 90)
     (attr through_hole)
-    (fp_text reference "S10" (at 0 0 90) (layer "F.SilkS") hide
+    (fp_text reference "S10" (at -3.414874 0.168488 180) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 30f7b5f2-245f-4c56-ba06-82fcca25db5c)
     )
@@ -884,7 +884,7 @@
     (tstamp e10b5627-3247-4c86-b9f6-ef474ca11543)
     (at 240.030145 120.990774)
     (attr through_hole)
-    (fp_text reference "S5" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "S5" (at 0.168488 3.414874) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 6f6d7062-aafe-488e-936b-b3488fa9d2ea)
     )
@@ -935,7 +935,7 @@
     (descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/product-catalog/tact/product-lines/tl3342-series-low-profile-smt-tact-switch")
     (tags "SPST Tactile Switch")
     (attr through_hole)
-    (fp_text reference "B2" (at 0 0 90) (layer "B.SilkS") hide
+    (fp_text reference "B2" (at 0 0 90) (layer "B.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
       (tstamp 3c27bc0e-e93a-4c72-8916-3686c103d2e9)
     )
