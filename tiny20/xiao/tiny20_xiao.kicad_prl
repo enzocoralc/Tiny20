@@ -4,14 +4,16 @@
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 2,
     "net_color_mode": 1,
     "opacity": {
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
       "zones": 0.6
     },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -38,7 +40,6 @@
       11,
       12,
       13,
-      14,
       15,
       16,
       17,
@@ -60,7 +61,8 @@
       34,
       35,
       36,
-      39
+      39,
+      40
     ],
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
